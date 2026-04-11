@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+
+# 谷歌爬虫
+User-agent: Googlebot
+Allow: /
+
+# 禁止访问的目录
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+
+# 站点地图
+Sitemap: https://www.guochanyingshi.com/sitemap.xml
+
+# 爬取延迟（毫秒）
+Crawl-delay: 1

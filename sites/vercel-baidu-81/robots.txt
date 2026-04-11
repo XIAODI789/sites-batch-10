@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# 优先抓取重要页面
+Allow: /category/
+Allow: /video/
+Allow: /search
+
+# 禁止抓取用户相关页面
+Disallow: /user
+Disallow: /login
+Disallow: /register
+
+# 网站地图
+Sitemap: https://example.com/sitemap.xml
+
+# 爬虫延迟设置
+Crawl-delay: 1
